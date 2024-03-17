@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: rgb(66 66 144);
+  font-size: 26px;
+  padding: 25px 0;
+  color: #fff;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+
+.main-right-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.main-right-contacts {
+  margin-top: 25px;
+}
+
+.main-right-contacts p {
+  color: blue;
+  margin-top: 25px;
+}
+
+.main-right-contacts a {
+  color: blue;
+  transition: all 0.3s ease;
+}
+
+.main-right-contacts a:hover {
+  color: rgb(69, 67, 238, 0.6)
+}
+
+.main-right-contacts p span {
+  color: rgb(71 71 129);
+  font-weight: 700;
+  margin-right: 5px;
+}
+
+.main-right-whatsapp {
+  margin-top: 25px;
+}
+
+.main-right-whatsapp a {
+  border: 1px solid rgb(71 71 129);
+  border-radius: 5px;
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
+  padding: 8px;
+  transition: all .3s ease;
+}
+
+.main-right-whatsapp a:hover {
+  background-color: rgb(66 66 144);
+  color: #fff;
+}
+
+.main-right-whatsapp a {
+  color: green;
+}
+
+.main-left {
+  position: relative;
+}
+
+.main-left span {
+  position: absolute;
+  left: 15px;
+  bottom: 40px;
+  background-color: rgb(71, 71, 129, 0.6);
+  color: #fff;
+}
+
+.section-reviews {
+  margin-top: 20px;
+}
+
+.section-reviews-title {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.section-review {
+  line-height: 20px;
+}
+
+.form {
+  margin-top: 30px;
+}
+
+.form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-input {
+  margin-top: 5px;
+  outline: none;
+  border: 1px solid #f1eded;
+  border-radius: 5px;
+  max-width: 600px;
+  padding: 10px;
+}
+
+.form-input::placeholder {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.form-description {
+  margin-top: 5px;
+  border: 1px solid #f1eded;
+  border-radius: 5px;
+  outline: none;
+  padding: 10px;
+}
+
+.form-description::placeholder {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.btn {
+  cursor: pointer;
+  color: rgb(69, 67, 238);
+  max-width: 100px;
+  padding: 8px;
+  margin-top: 10px;
+  border: 1px solid rgb(123, 161, 211);
+  border-radius: 5px;
+  background-color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+  opacity: 0.6;
+}

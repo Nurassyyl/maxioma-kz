@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <h1 class="header-title">Контакты и обратная связь</h1>
+    </div>
+  </header>
+  <main class="main container">
+    <div class="main-right">
+      <h1 class="main-right-title">Контакты</h1>
+      <div class="main-right-contacts">
+        <p><span>Адрес:</span>РК, г.Караганда, ул.Мельничная 4</p>
+        <p><span>Телефон:</span><a href="tel:+7712777777">+7 (7212) 77-77-77</a></p>
+        <p><span>Мобильный телефон:</span><a href="tel:+77017777777">+7(701)777 77 77</a></p>
+      </div>
+      <div class="main-right-whatsapp">
+        <a href="#">Написать в WhatsApp</a>
+      </div>
+      <div class="main-right-contacts">
+        <p><span>E-mail:</span><a href="#">info@maxioma.kz</a></p>
+        <p><span>Сайт:</span><a href="https://maxioma.kz">maxioma.kz</a></p>
+        <p><span>Контактное лицо:</span>Иван Иванович, Проектный менеджер</p>
+      </div>
+    </div>
+    <div class="main-left">
+      <img src="./img/photo.png" alt="Photo">
+      <span>Иван Иванович</span>
+    </div>
+  </main>
+  <section class="section-reviews container">
+    <h1 class="section-reviews-title">Ваши отзывы</h1>
+    <p class="section-review">Контактная страница на сайте является важным местом для посетителей, которые хотят
+      связаться с владельцам сайта. На этой странице должна быть доступна вся необходимая информация для связи, чтобы
+      посетители могли задать вопросы, выразить свои предложения или просто оставить отзывы. Если вы хотите связаться с
+      нами, пожалуйста, используйте любой из перечисленных на этой странице способов связи. Мы всегда рады услышать ваши
+      комментарии и ответить на все ваши вопросы.</p>
+  </section>
+  <section class="form container">
+    <form action="./sendemail.php" method="post">
+      <input type="text" class="form-input" required name="name" placeholder="ФИО">
+      <input type="text" class="form-input" required name="name_company" placeholder="Компания">
+      <input type="email" class="form-input" required name="email" placeholder="Email">
+      <textarea name="description" rows="6" cols="50" class="form-description" required
+        placeholder="Ваши отзывы и предложения"></textarea>
+      <button input="submit" class="btn">Отправить</button>
+    </form>
+  </section>
+</body>
+
+</html>
