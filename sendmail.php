@@ -3,7 +3,7 @@
 ini_set('display_errors','On');
 error_reporting('E_ALL');
 
-$to = 'nabdildabek@gmail.com, info@maxioma.kz'; //Адреса, куда будут приходить письма. две почты указываем через запятую
+$to = 'nabdildabek@gmail.com, admin@maxioma.kz'; //Адреса, куда будут приходить письма. две почты указываем через запятую
 $sitename = $_SERVER['SERVER_NAME'];
 
 if (isset($_POST['email']) && !empty($_POST['email']))
